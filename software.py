@@ -174,7 +174,7 @@ def find_data_sheet_name(path):
 class App(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title('Logs Analysis Processor')
+        self.title('Log Analyzer')
         self.geometry('720x360')
         self.resizable(False, False)
         self.file_path = tk.StringVar()
@@ -189,7 +189,7 @@ class App(tk.Tk):
         frm = ttk.Frame(self, padding=16, style='Main.TFrame')
         frm.pack(fill=tk.BOTH, expand=True)
 
-        title = ttk.Label(frm, text='Logs Analysis Processor', font=('Calibri', 16, 'bold'), style='Title.TLabel')
+        title = ttk.Label(frm, text='Log Analyzer', font=('Calibri', 16, 'bold'), style='Title.TLabel')
         title.grid(row=0, column=0, columnspan=3, sticky='w', pady=(0, 8))
 
         instr = (
@@ -271,7 +271,7 @@ class App(tk.Tk):
 
         help_menu = tk.Menu(menubar, tearoff=0)
         help_menu.add_command(label='Instructions', command=self._show_instructions)
-        help_menu.add_command(label='About', command=lambda: messagebox.showinfo('About', 'Logs Analysis Processor'))
+        help_menu.add_command(label='About', command=lambda: messagebox.showinfo('About', 'Log Analyzer'))
         menubar.add_cascade(label='Help', menu=help_menu)
         self.config(menu=menubar)
 

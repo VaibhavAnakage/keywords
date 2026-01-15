@@ -1478,7 +1478,7 @@ r'\bscreenshot\b'
 'Addressable': 'No',
 'Priority-Type':['High'],
 'MainKeywords': [''],
-'GroupKeywords1': ['paper jam','artridg', 'toner', 'tonner','cartridg','catridge',' cartage ',' Ribbon', 'ribbon',' screws ', ' roller '],
+'GroupKeywords1': ['paper jam','artridg', 'Cartlidge', 'cartage' ,'print head' ,'toner', 'tonner','cartridg','catridge',' cartage ',' Ribbon', 'ribbon',' screws ', ' roller '],
 },
 {
 'GroupDescription': 'Printer/Scanner',
