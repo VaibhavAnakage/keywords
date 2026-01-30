@@ -474,6 +474,15 @@ r'\sent closure\b',
 },
 {
 'GroupDescription': 'Printer/Scanner',
+'SubGroupDescription': 'Reset Printer Setting',
+'Addressable': 'New',
+'Priority-Type':['High'],
+'MainKeywords': [''],
+'GroupKeywords1': ['printer'],
+'GroupKeywords2': ['setting'],
+},
+{
+'GroupDescription': 'Printer/Scanner',
 'SubGroupDescription': 'Scanner Driver Installation',
 'Addressable': 'New',
 'Priority-Type':['High'],
@@ -999,15 +1008,6 @@ r'\support group\b',
 r'\bscreen\s*shot\b'
 r'\bscreenshot\b'
 ]
-},
-{
-'GroupDescription': 'System',
-'SubGroupDescription': 'System Settings',
-'Addressable': 'Yes',
-'Priority-Type':['High'],
-'MainKeywords': [''],
-'GroupKeywords1': ['system','laptop','desktop','machine'],
-'GroupKeywords2': ['setting'],
 },
 {
 'GroupDescription': 'Outlook/Mail',
@@ -4027,6 +4027,15 @@ r'\bDesktop\s+Login\s*:',
 r'\blaptop\s+login\s*:',
 r'\bLaptop\s+Login\s*:',
 ]
+},
+{
+'GroupDescription': 'System',
+'SubGroupDescription': 'System Settings',
+'Addressable': 'Yes',
+'Priority-Type':['Low'],
+'MainKeywords': [''],
+'GroupKeywords1': ['system','laptop','desktop','machine'],
+'GroupKeywords2': ['setting'],
 },
 {
 'GroupDescription': 'Access Requests',
